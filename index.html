@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | IdleCrawler3D</title>
+    <title>Unity Web Player | Terminal Idle Crawler</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1280 height=800 tabindex="-1" style="width: 1280px; height: 800px; background: #231F20"></canvas>
@@ -32,10 +32,10 @@
         codeUrl: "Build/WGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Limited Input",
-        productName: "IdleCrawler3D",
+        productName: "Terminal Idle Crawler",
         productVersion: "0.1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        devicePixelRatio: = window.devicePixelRatio, // Uncomment this to override low DPI rendering on high DPI displays.
+        devicePixelRatio: window.devicePixelRatio, // Uncomment this to override low DPI rendering on high DPI displays.
       }).then((unityInstance) => {
       }).catch((message) => {
         alert(message);
